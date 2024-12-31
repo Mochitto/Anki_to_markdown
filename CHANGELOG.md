@@ -11,6 +11,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 - Support for continuous integration with GitHub Actions. Backend and frontend will now build with every push to the `main` branch or to the opened PR. (@MarkoSagadin)
 - Automated release process with GitHub Actions. A new release can now be manually triggered by providing the next version tag under the _Actions_ tab in the GitHub Web UI. (@MarkoSagadin)
 - Added information on how to build the backend project for developers.
+- Added first configuration option for frontmatter metadata blocks in the input markdown files! [Frontmatter blocks] allow you to configure options per single markdown file. The first added property is called `no_tabs`. When set to `True`, it disables tabs in generated cards. (@MarkoSagadin)
+
+[Frontmatter blocks]: https://dev.to/dailydevtips1/what-exactly-is-frontmatter-123g
 
 ### Fixed
 - When reviewing card styles in Anki from its editor view, night mode now triggers the night-mode styles as expected. (@MarkoSagadin)
